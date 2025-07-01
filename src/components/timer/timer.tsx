@@ -5,7 +5,7 @@ interface TimerProps {
     onDelete: () => void;
 }
 
-const TIMER_INTERVAL_MS = 20;
+const TIMER_INTERVAL_MS = 10;
 
 const Timer = ({ onDelete }: TimerProps) => {
     const classes = useTimerStyles();
